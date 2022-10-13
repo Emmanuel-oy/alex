@@ -1,0 +1,57 @@
+.bg-black{
+    background-color: #040B14!important;
+
+}
+.bg-dark:hover{
+    background-color: blue!important;
+}
+
+
+.fa-solid{
+    display: inline-block!important;
+}
+
+
+.alex{
+    background-image: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../image/alex.jpg)!important;
+    /* background-color: red; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: fixed!important;
+    top: 0;
+    right: 0;
+}
+
+
+.ttl{
+
+}
+
+
+.bb{
+
+}
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
